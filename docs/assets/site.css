@@ -261,6 +261,13 @@ section[id] {
   font-size: 14px;
 }
 
+.anonymous-note {
+  margin: -14px 0 20px;
+  color: var(--muted);
+  font-size: 13px;
+  font-style: italic;
+}
+
 .affiliations sup {
   font-size: 10px;
 }
@@ -1392,7 +1399,7 @@ tr.ours td {
     gap: 14px;
   }
 
-  .site-mark span:last-child {
+  .site-mark {
     display: none;
   }
 

@@ -4,36 +4,15 @@
 
 ### Point, Think, Memorize, and Align for Efficient Embodied Navigation
 
-Hongyan Feng<sup>&#8727;1</sup>, Sunlai Chen<sup>&#8727;1</sup>, Xuanyu Liu<sup>&#8727;1</sup>, Miao Pan<sup>1</sup>, Yangfan Xie<sup>1</sup>,<br>
-Wenqi Zhang<sup>&dagger;1</sup>, Yuxiang Cui<sup>2</sup>, Zhongxiang Zhou<sup>2</sup>, Rong Xiong<sup>2</sup>, Xuhong Zhang<sup>&dagger;1</sup>
+Anonymous authors<br>
+Affiliations withheld for double-blind review
 
-<sup>1</sup>School of Software Technology, Zhejiang University<br>
-<sup>2</sup>Zhejiang Humanoid Robot Innovation Center Co., Ltd.<br>
-<sup>&#8727;</sup>Equal contribution, <sup>&dagger;</sup>Corresponding author
-
-<a href="https://arxiv.org/abs/2608.17512">
-  <img alt="arXiv paper" src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv&logoColor=B31B1B">
-</a>
-<a href="https://zju-omniai.github.io/Embodied-Navigator/">
-  <img alt="Project page" src="https://img.shields.io/badge/Project_Page-Website-2B765C?logo=googlechrome&logoColor=4285F4">
-</a>
-<a href="https://github.com/ZJU-OmniAI/Embodied-Omni">
-  <img alt="Code repository" src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=181717">
-</a>
-<a href="https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO">
-  <img alt="Hugging Face model" src="https://img.shields.io/badge/Model-Hugging_Face-FFD21E?logo=huggingface&logoColor=FFD21E">
-</a>
-<a href="#citation">
-  <img alt="BibTeX citation" src="https://img.shields.io/badge/Citation-BibTeX-A87316?logo=googlescholar&logoColor=4285F4">
-</a>
+Anonymous research artifact · Paper, project page, model, and author links withheld
 
 </div>
 
-https://github.com/user-attachments/assets/695b83b4-7672-4d77-ac5b-dc455258e036
-
-<p align="center">
-  <strong>Embodied-Navigator Overview: Model Architecture and Experimental Results</strong>
-</p>
+> [!IMPORTANT]
+> This repository is intentionally anonymous. Author names, affiliations, acknowledgements, personal project links, and identifying resource URLs are withheld for double-blind review. The manuscript and paper source are distributed separately and intentionally excluded from this repository.
 
 ## Overview
 
@@ -45,12 +24,7 @@ The framework couples this vision-centric action space with selective reasoning,
 
 ## Model Checkpoint
 
-The released [Embodied-Navigator-7B-GRPO checkpoint](https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO) is available on Hugging Face. Download it with:
-
-```bash
-hf download UnderTides/Embodied-Navigator-7B-GRPO \
-  --local-dir Embodied-Navigator-7B-GRPO
-```
+Model weights are not included in this anonymous artifact. The Embodied-Navigator-7B-GRPO checkpoint download link is withheld for double-blind review. To use a compatible local checkpoint, pass `--model_name_or_path /path/to/checkpoint` to the training commands.
 
 ## Architecture
 
@@ -285,7 +259,7 @@ Transformers 4.40+
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <anonymous-repository-url> Embodied-Navigator
 cd Embodied-Navigator
 
 # Install dependencies
@@ -360,17 +334,12 @@ Page conventions for maintainers are documented in `docs/README.md`.
 ## Citation
 
 ```bibtex
-@misc{feng2026embodiednavigator,
+@misc{anonymous2026embodiednavigator,
   title     = {Embodied-Navigator: Point, Think, Memorize, and Align
                for Efficient Embodied Navigation},
-  author    = {Feng, Hongyan and Chen, Sunlai and Liu, Xuanyu and Pan, Miao and
-               Xie, Yangfan and Zhang, Wenqi and Cui, Yuxiang and
-               Zhou, Zhongxiang and Xiong, Rong and Zhang, Xuhong},
+  author    = {Anonymous Authors},
   year      = {2026},
-  eprint    = {2608.17512},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.RO},
-  url       = {https://arxiv.org/abs/2608.17512}
+  note      = {Anonymous manuscript for double-blind review}
 }
 ```
 
@@ -388,7 +357,7 @@ Page conventions for maintainers are documented in `docs/README.md`.
 **Distributed separately:**
 - Full licensed Habitat-Matterport3D simulation assets
 - Complete 90k-trajectory MultiNav-CoT dataset
-- [Embodied-Navigator-7B-GRPO model checkpoint](https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO)
+- Embodied-Navigator-7B-GRPO model checkpoint (hosting details withheld during review)
 - Complete recordings of all 100 real-world trials (six representative videos are included in `docs/img/`)
 
 **Key dependencies:**
