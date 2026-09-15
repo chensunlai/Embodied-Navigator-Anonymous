@@ -7,7 +7,7 @@
 Anonymous authors<br>
 Affiliations withheld for double-blind review
 
-Anonymous research artifact · Paper, project page, model, and author links withheld
+Anonymous research artifact · [Project Homepage](https://anonymous.4open.science/w/Embodied-Navigator/) · [Citation](https://anonymous.4open.science/r/Embodied-Navigator/)
 
 </div>
 
@@ -214,7 +214,7 @@ Six representative zero-shot trials on the Unitree Go2 quadruped, drawn from the
 100-episode real-world evaluation. Each video shows the synchronized multi-view RGB
 observations, the selected pixel waypoints with reasoning traces, and the executed
 trajectory. Success examples are listed first; the failure case is listed last.
-The same videos play inline on the [project homepage](docs/index.html).
+The same videos play inline on the [project homepage](https://anonymous.4open.science/w/Embodied-Navigator/).
 
 | # | Video | Scene | Notes |
 | --- | --- | --- | --- |
@@ -316,7 +316,7 @@ Zero-shot real-world deployment requires no robot-specific fine-tuning.
 
 ## Project Homepage
 
-Visit `docs/index.html` for the full project page with:
+Visit the [project homepage](https://anonymous.4open.science/w/Embodied-Navigator/) for the full project page with:
 - Interactive figure viewer
 - Detailed method description
 - Complete results tables
@@ -332,6 +332,8 @@ python3 -m http.server 8000
 Page conventions for maintainers are documented in `docs/README.md`.
 
 ## Citation
+
+See the [citation record](https://anonymous.4open.science/r/Embodied-Navigator/) for the project citation.
 
 ```bibtex
 @misc{anonymous2026embodiednavigator,
